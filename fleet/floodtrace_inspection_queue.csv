@@ -1,0 +1,101 @@
+rank,asset_id,scenario,maximum_exposure,maximum_water_level_m,exposure_duration_minutes,maximum_conductivity_ms_cm,maximum_humidity_pct,power_interruptions,power_off_duration_minutes,network_outages,network_offline_duration_minutes,exposure_severity_score,exposure_duration_score,environmental_severity_score,power_disturbance_score,evidence_quality_score,priority_score,inspection_priority,recommendation
+1,TX-1061,deep_submersion,DEEP_EXPOSURE,1.307,295.0,2.606,99.86,1,120.0,1,120.0,94.85,81.94,99.93,50.0,99.94,89.06,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+2,TX-1030,deep_submersion,DEEP_EXPOSURE,1.302,295.0,2.539,100.0,1,120.0,1,120.0,94.72,81.94,100.0,50.0,99.94,89.0,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+3,TX-1017,deep_submersion,DEEP_EXPOSURE,1.304,295.0,2.556,99.24,1,120.0,1,120.0,94.77,81.94,99.62,50.0,99.95,88.99,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+4,TX-1004,deep_submersion,DEEP_EXPOSURE,1.303,295.0,2.543,99.39,1,120.0,1,120.0,94.75,81.94,99.69,50.0,99.94,88.99,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+5,TX-1031,deep_submersion,DEEP_EXPOSURE,1.301,295.0,2.543,100.0,1,120.0,1,120.0,94.69,81.94,100.0,50.0,99.92,88.99,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+6,TX-1049,deep_submersion,DEEP_EXPOSURE,1.302,295.0,2.542,99.5,1,120.0,1,120.0,94.72,81.94,99.75,50.0,99.95,88.98,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+7,TX-1054,deep_submersion,DEEP_EXPOSURE,1.306,295.0,2.574,98.66,1,120.0,1,120.0,94.83,81.94,99.33,50.0,99.94,88.98,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+8,TX-1067,deep_submersion,DEEP_EXPOSURE,1.3,295.0,2.532,100.0,1,120.0,1,120.0,94.67,81.94,100.0,50.0,99.94,88.98,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+9,TX-1040,deep_submersion,DEEP_EXPOSURE,1.3,295.0,2.541,99.77,1,120.0,1,120.0,94.67,81.94,99.89,50.0,99.94,88.97,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+10,TX-1043,deep_submersion,DEEP_EXPOSURE,1.299,295.0,2.556,100.0,1,120.0,1,120.0,94.64,81.94,100.0,50.0,99.92,88.96,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+11,TX-1055,deep_submersion,DEEP_EXPOSURE,1.299,295.0,2.501,99.95,1,120.0,1,120.0,94.64,81.94,99.97,50.0,99.92,88.96,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+12,TX-1092,deep_submersion,DEEP_EXPOSURE,1.301,295.0,2.516,99.3,1,120.0,1,120.0,94.69,81.94,99.65,50.0,99.92,88.95,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+13,TX-1081,deep_submersion,DEEP_EXPOSURE,1.298,295.0,2.556,99.19,1,120.0,1,120.0,94.61,81.94,99.59,50.0,99.94,88.92,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+14,TX-1096,deep_submersion,DEEP_EXPOSURE,1.301,295.0,2.524,98.51,1,120.0,1,120.0,94.69,81.94,99.26,50.0,99.93,88.92,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+15,TX-1020,deep_submersion,DEEP_EXPOSURE,1.296,295.0,2.511,99.51,1,120.0,1,120.0,94.56,81.94,99.75,50.0,99.95,88.91,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+16,TX-1058,deep_submersion,DEEP_EXPOSURE,1.298,295.0,2.521,99.06,1,120.0,1,120.0,94.61,81.94,99.53,50.0,99.95,88.91,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+17,TX-1063,deep_submersion,DEEP_EXPOSURE,1.297,295.0,2.55,99.19,1,120.0,1,120.0,94.59,81.94,99.59,50.0,99.93,88.9,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+18,TX-1065,deep_submersion,DEEP_EXPOSURE,1.295,295.0,2.566,99.32,1,120.0,1,120.0,94.53,81.94,99.66,50.0,99.94,88.89,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+19,TX-1079,deep_submersion,DEEP_EXPOSURE,1.296,295.0,2.498,99.16,1,120.0,1,120.0,94.56,81.94,99.52,50.0,99.93,88.88,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+20,TX-1078,deep_submersion,DEEP_EXPOSURE,1.299,295.0,2.522,98.09,1,120.0,1,120.0,94.64,81.94,99.04,50.0,99.95,88.87,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+21,TX-1087,deep_submersion,DEEP_EXPOSURE,1.294,295.0,2.529,99.39,1,120.0,1,120.0,94.51,81.94,99.69,50.0,99.92,88.87,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+22,TX-1066,deep_submersion,DEEP_EXPOSURE,1.297,295.0,2.513,98.56,1,120.0,1,120.0,94.59,81.94,99.28,50.0,99.91,88.87,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+23,TX-1013,deep_submersion,DEEP_EXPOSURE,1.299,290.0,2.537,98.62,1,120.0,1,120.0,94.64,80.56,99.31,50.0,99.91,88.62,CRITICAL,Prioritize qualified inspection as early as operationally feasible.
+24,TX-1062,partial_submersion,PARTIAL_SUBMERSION,0.706,280.0,1.878,96.92,1,120.0,1,120.0,57.83,77.78,81.04,50.0,99.93,69.67,HIGH,Prioritize for qualified post-event inspection.
+25,TX-1068,partial_submersion,PARTIAL_SUBMERSION,0.702,280.0,1.852,97.82,1,120.0,1,120.0,57.72,77.78,80.77,50.0,99.92,69.59,HIGH,Prioritize for qualified post-event inspection.
+26,TX-1044,partial_submersion,PARTIAL_SUBMERSION,0.703,280.0,1.838,98.25,1,120.0,1,120.0,57.75,77.78,80.59,50.0,99.91,69.59,HIGH,Prioritize for qualified post-event inspection.
+27,TX-1035,partial_submersion,PARTIAL_SUBMERSION,0.705,280.0,1.828,96.99,1,120.0,1,120.0,57.8,77.78,79.68,50.0,99.92,69.52,HIGH,Prioritize for qualified post-event inspection.
+28,TX-1027,partial_submersion,PARTIAL_SUBMERSION,0.699,280.0,1.847,96.72,1,120.0,1,120.0,57.64,77.78,80.08,50.0,99.94,69.49,HIGH,Prioritize for qualified post-event inspection.
+29,TX-1015,partial_submersion,PARTIAL_SUBMERSION,0.701,280.0,1.814,97.19,1,120.0,1,120.0,57.69,77.78,79.39,50.0,99.94,69.45,HIGH,Prioritize for qualified post-event inspection.
+30,TX-1094,partial_submersion,PARTIAL_SUBMERSION,0.697,280.0,1.838,96.91,1,120.0,1,120.0,57.59,77.78,79.92,50.0,99.94,69.45,HIGH,Prioritize for qualified post-event inspection.
+31,TX-1074,partial_submersion,PARTIAL_SUBMERSION,0.701,280.0,1.804,97.36,1,120.0,1,120.0,57.69,77.78,79.19,50.0,99.93,69.43,HIGH,Prioritize for qualified post-event inspection.
+32,TX-1011,partial_submersion,PARTIAL_SUBMERSION,0.694,280.0,1.828,97.35,1,120.0,1,120.0,57.51,77.78,79.86,50.0,99.93,69.41,HIGH,Prioritize for qualified post-event inspection.
+33,TX-1072,partial_submersion,PARTIAL_SUBMERSION,0.703,275.0,1.873,98.18,1,120.0,1,120.0,57.75,76.39,81.53,50.0,99.93,69.41,HIGH,Prioritize for qualified post-event inspection.
+34,TX-1034,partial_submersion,PARTIAL_SUBMERSION,0.699,280.0,1.795,98.1,1,120.0,1,120.0,57.64,77.78,79.31,50.0,99.92,69.41,HIGH,Prioritize for qualified post-event inspection.
+35,TX-1047,partial_submersion,PARTIAL_SUBMERSION,0.696,280.0,1.814,96.96,1,120.0,1,120.0,57.56,77.78,79.27,50.0,99.93,69.37,HIGH,Prioritize for qualified post-event inspection.
+36,TX-1090,partial_submersion,PARTIAL_SUBMERSION,0.698,280.0,1.81,96.44,1,120.0,1,120.0,57.61,77.78,78.9,50.0,99.93,69.36,HIGH,Prioritize for qualified post-event inspection.
+37,TX-1095,partial_submersion,PARTIAL_SUBMERSION,0.702,275.0,1.843,98.27,1,120.0,1,120.0,57.72,76.39,80.74,50.0,99.9,69.31,HIGH,Prioritize for qualified post-event inspection.
+38,TX-1077,partial_submersion,PARTIAL_SUBMERSION,0.701,275.0,1.848,97.95,1,120.0,1,120.0,57.69,76.39,80.72,50.0,99.92,69.3,HIGH,Prioritize for qualified post-event inspection.
+39,TX-1039,partial_submersion,PARTIAL_SUBMERSION,0.7,275.0,1.825,98.2,1,120.0,1,120.0,57.67,76.39,80.2,50.0,99.94,69.24,HIGH,Prioritize for qualified post-event inspection.
+40,TX-1010,partial_submersion,PARTIAL_SUBMERSION,0.7,275.0,1.827,98.0,1,120.0,1,120.0,57.67,76.39,80.16,50.0,99.94,69.23,HIGH,Prioritize for qualified post-event inspection.
+41,TX-1097,partial_submersion,PARTIAL_SUBMERSION,0.699,275.0,1.835,97.47,1,120.0,1,120.0,57.64,76.39,80.11,50.0,99.94,69.22,HIGH,Prioritize for qualified post-event inspection.
+42,TX-1016,partial_submersion,PARTIAL_SUBMERSION,0.699,275.0,1.84,97.22,1,120.0,1,120.0,57.64,76.39,80.13,50.0,99.93,69.22,HIGH,Prioritize for qualified post-event inspection.
+43,TX-1022,partial_submersion,PARTIAL_SUBMERSION,0.701,275.0,1.826,97.31,1,120.0,1,120.0,57.69,76.39,79.78,50.0,99.93,69.21,HIGH,Prioritize for qualified post-event inspection.
+44,TX-1048,partial_submersion,PARTIAL_SUBMERSION,0.702,275.0,1.837,96.54,1,120.0,1,120.0,57.72,76.39,79.71,50.0,99.93,69.21,HIGH,Prioritize for qualified post-event inspection.
+45,TX-1002,partial_submersion,PARTIAL_SUBMERSION,0.698,275.0,1.837,97.52,1,120.0,1,120.0,57.61,76.39,80.2,50.0,99.9,69.21,HIGH,Prioritize for qualified post-event inspection.
+46,TX-1057,partial_submersion,PARTIAL_SUBMERSION,0.703,275.0,1.82,97.0,1,120.0,1,120.0,57.75,76.39,79.46,50.0,99.93,69.2,HIGH,Prioritize for qualified post-event inspection.
+47,TX-1038,partial_submersion,PARTIAL_SUBMERSION,0.699,275.0,1.849,96.25,1,120.0,1,120.0,57.64,76.39,79.9,50.0,99.92,69.19,HIGH,Prioritize for qualified post-event inspection.
+48,TX-1093,partial_submersion,PARTIAL_SUBMERSION,0.697,275.0,1.841,96.82,1,120.0,1,120.0,57.59,76.39,79.96,50.0,99.94,69.18,HIGH,Prioritize for qualified post-event inspection.
+49,TX-1088,partial_submersion,PARTIAL_SUBMERSION,0.697,275.0,1.825,97.15,1,120.0,1,120.0,57.59,76.39,79.68,50.0,99.94,69.15,HIGH,Prioritize for qualified post-event inspection.
+50,TX-1076,partial_submersion,PARTIAL_SUBMERSION,0.696,275.0,1.813,97.46,1,120.0,1,120.0,57.56,76.39,79.49,50.0,99.91,69.12,HIGH,Prioritize for qualified post-event inspection.
+51,TX-1033,partial_submersion,PARTIAL_SUBMERSION,0.696,275.0,1.806,97.68,1,120.0,1,120.0,57.56,76.39,79.41,50.0,99.94,69.11,HIGH,Prioritize for qualified post-event inspection.
+52,TX-1070,partial_submersion,PARTIAL_SUBMERSION,0.697,275.0,1.811,97.1,1,120.0,1,120.0,57.59,76.39,79.26,50.0,99.93,69.11,HIGH,Prioritize for qualified post-event inspection.
+53,TX-1082,partial_submersion,PARTIAL_SUBMERSION,0.695,275.0,1.826,96.38,1,120.0,1,120.0,57.53,76.39,79.32,50.0,99.94,69.09,HIGH,Prioritize for qualified post-event inspection.
+54,TX-1071,partial_submersion,PARTIAL_SUBMERSION,0.696,275.0,1.814,96.79,1,120.0,1,120.0,57.56,76.39,79.19,50.0,99.93,69.09,HIGH,Prioritize for qualified post-event inspection.
+55,TX-1041,partial_submersion,PARTIAL_SUBMERSION,0.699,275.0,1.795,96.76,1,120.0,1,120.0,57.64,76.39,78.64,50.0,99.91,69.07,HIGH,Prioritize for qualified post-event inspection.
+56,TX-1021,power_network_failure,PARTIAL_SUBMERSION,0.453,270.0,1.236,95.58,1,120.0,1,120.0,51.08,75.0,62.4,50.0,99.88,64.21,HIGH,Prioritize for qualified post-event inspection.
+57,TX-1056,power_network_failure,PARTIAL_SUBMERSION,0.447,270.0,1.259,95.16,1,120.0,1,120.0,50.92,75.0,62.83,50.0,99.9,64.18,HIGH,Prioritize for qualified post-event inspection.
+58,TX-1003,power_network_failure,PARTIAL_SUBMERSION,0.447,270.0,1.229,95.0,1,120.0,1,120.0,50.92,75.0,61.91,50.0,99.88,64.09,HIGH,Prioritize for qualified post-event inspection.
+59,TX-1025,power_network_failure,PARTIAL_SUBMERSION,0.447,270.0,1.198,94.81,1,120.0,1,120.0,50.92,75.0,60.95,50.0,99.9,63.99,HIGH,Prioritize for qualified post-event inspection.
+60,TX-1007,power_network_failure,PARTIAL_SUBMERSION,0.453,265.0,1.246,95.97,1,120.0,1,120.0,51.08,73.61,62.87,50.0,99.9,63.98,HIGH,Prioritize for qualified post-event inspection.
+61,TX-1008,power_network_failure,PARTIAL_SUBMERSION,0.452,265.0,1.249,95.51,1,120.0,1,120.0,51.05,73.61,62.73,50.0,99.91,63.96,HIGH,Prioritize for qualified post-event inspection.
+62,TX-1064,power_network_failure,PARTIAL_SUBMERSION,0.447,265.0,1.259,95.82,1,120.0,1,120.0,50.92,73.61,63.16,50.0,99.88,63.93,HIGH,Prioritize for qualified post-event inspection.
+63,TX-1046,power_network_failure,PARTIAL_SUBMERSION,0.453,265.0,1.24,95.1,1,120.0,1,120.0,51.08,73.61,62.27,50.0,99.93,63.92,HIGH,Prioritize for qualified post-event inspection.
+64,TX-1014,power_network_failure,PARTIAL_SUBMERSION,0.452,265.0,1.236,94.82,1,120.0,1,120.0,51.05,73.61,62.02,50.0,99.92,63.89,HIGH,Prioritize for qualified post-event inspection.
+65,TX-1073,power_network_failure,PARTIAL_SUBMERSION,0.45,265.0,1.222,96.05,1,120.0,1,120.0,51.0,73.61,62.24,50.0,99.9,63.88,HIGH,Prioritize for qualified post-event inspection.
+66,TX-1053,power_network_failure,PARTIAL_SUBMERSION,0.446,265.0,1.227,95.32,1,120.0,1,120.0,50.89,73.61,62.02,50.0,99.88,63.81,HIGH,Prioritize for qualified post-event inspection.
+67,TX-1045,power_network_failure,PARTIAL_SUBMERSION,0.449,260.0,1.298,95.37,1,120.0,1,120.0,50.97,72.22,64.03,50.0,99.9,63.77,HIGH,Prioritize for qualified post-event inspection.
+68,TX-1042,power_network_failure,PARTIAL_SUBMERSION,0.451,260.0,1.237,96.09,1,120.0,1,120.0,51.03,72.22,62.68,50.0,99.9,63.66,HIGH,Prioritize for qualified post-event inspection.
+69,TX-1019,power_network_failure,PARTIAL_SUBMERSION,0.449,260.0,1.239,95.21,1,120.0,1,120.0,50.97,72.22,62.3,50.0,99.89,63.6,HIGH,Prioritize for qualified post-event inspection.
+70,TX-1080,power_network_failure,PARTIAL_SUBMERSION,0.451,260.0,1.219,95.45,1,120.0,1,120.0,51.03,72.22,61.86,50.0,99.89,63.58,HIGH,Prioritize for qualified post-event inspection.
+71,TX-1001,power_network_failure,PARTIAL_SUBMERSION,0.451,260.0,1.22,94.95,1,120.0,1,120.0,51.03,72.22,61.63,50.0,99.88,63.55,HIGH,Prioritize for qualified post-event inspection.
+72,TX-1083,power_network_failure,PARTIAL_SUBMERSION,0.449,260.0,1.235,93.82,1,120.0,1,120.0,50.97,72.22,61.49,50.0,99.91,63.52,HIGH,Prioritize for qualified post-event inspection.
+73,TX-1024,power_network_failure,PARTIAL_SUBMERSION,0.446,260.0,1.232,94.13,1,120.0,1,120.0,50.89,72.22,61.56,50.0,99.89,63.49,HIGH,Prioritize for qualified post-event inspection.
+74,TX-1023,sensor_failure,PARTIAL_SUBMERSION,0.679,280.0,1.174,96.24,0,0.0,0,0.0,57.11,77.78,60.99,0.0,93.85,61.43,HIGH,Prioritize for qualified post-event inspection.
+75,TX-1012,sensor_failure,PARTIAL_SUBMERSION,0.688,280.0,1.153,95.93,0,0.0,0,0.0,57.35,77.78,60.25,0.0,93.47,61.41,HIGH,Prioritize for qualified post-event inspection.
+76,TX-1006,sensor_failure,PARTIAL_SUBMERSION,0.681,280.0,1.164,96.06,0,0.0,0,0.0,57.16,77.78,60.62,0.0,93.44,61.36,HIGH,Prioritize for qualified post-event inspection.
+77,TX-1032,sensor_failure,PARTIAL_SUBMERSION,0.676,280.0,1.167,95.42,0,0.0,0,0.0,57.03,77.78,60.39,0.0,93.6,61.3,HIGH,Prioritize for qualified post-event inspection.
+78,TX-1100,sensor_failure,PARTIAL_SUBMERSION,0.685,275.0,1.191,94.38,0,0.0,0,0.0,57.27,76.39,60.54,0.0,93.67,61.15,HIGH,Prioritize for qualified post-event inspection.
+79,TX-1089,rain,WETTING,0.088,185.0,0.447,89.98,0,0.0,0,0.0,14.35,51.39,37.51,0.0,99.66,35.43,MEDIUM,Include in the qualified inspection queue after higher-priority assets.
+80,TX-1091,rain,WETTING,0.08,185.0,0.436,88.41,0,0.0,0,0.0,14.13,51.39,36.41,0.0,99.56,35.21,MEDIUM,Include in the qualified inspection queue after higher-priority assets.
+81,TX-1028,rain,WETTING,0.08,180.0,0.463,90.48,0,0.0,0,0.0,14.13,50.0,38.2,0.0,99.56,35.11,MEDIUM,Include in the qualified inspection queue after higher-priority assets.
+82,TX-1059,rain,WETTING,0.085,175.0,0.479,91.07,0,0.0,0,0.0,14.27,48.61,38.95,0.0,99.54,34.97,LOW,Lower inspection priority based on reconstructed exposure evidence.
+83,TX-1036,rain,WETTING,0.083,175.0,0.473,89.5,0,0.0,0,0.0,14.21,48.61,37.99,0.0,99.5,34.84,LOW,Lower inspection priority based on reconstructed exposure evidence.
+84,TX-1009,rain,WETTING,0.083,175.0,0.443,90.43,0,0.0,0,0.0,14.21,48.61,37.62,0.0,99.46,34.8,LOW,Lower inspection priority based on reconstructed exposure evidence.
+85,TX-1018,rain,WETTING,0.084,175.0,0.428,89.87,0,0.0,0,0.0,14.24,48.61,36.92,0.0,99.51,34.75,LOW,Lower inspection priority based on reconstructed exposure evidence.
+86,TX-1075,rain,WETTING,0.082,175.0,0.441,89.85,0,0.0,0,0.0,14.19,48.61,37.27,0.0,99.4,34.74,LOW,Lower inspection priority based on reconstructed exposure evidence.
+87,TX-1060,rain,WETTING,0.087,170.0,0.456,91.12,0,0.0,0,0.0,14.32,47.22,38.33,0.0,99.56,34.66,LOW,Lower inspection priority based on reconstructed exposure evidence.
+88,TX-1051,rain,WETTING,0.086,170.0,0.466,90.65,0,0.0,0,0.0,14.29,47.22,38.37,0.0,99.54,34.64,LOW,Lower inspection priority based on reconstructed exposure evidence.
+89,TX-1050,rain,WETTING,0.09,170.0,0.444,90.1,0,0.0,0,0.0,14.4,47.22,37.48,0.0,99.55,34.61,LOW,Lower inspection priority based on reconstructed exposure evidence.
+90,TX-1005,rain,WETTING,0.083,170.0,0.471,89.09,0,0.0,0,0.0,14.21,47.22,37.73,0.0,99.58,34.55,LOW,Lower inspection priority based on reconstructed exposure evidence.
+91,TX-1099,rain,WETTING,0.08,170.0,0.463,89.47,0,0.0,0,0.0,14.13,47.22,37.7,0.0,99.34,34.48,LOW,Lower inspection priority based on reconstructed exposure evidence.
+92,TX-1037,rain,WETTING,0.081,170.0,0.456,88.99,0,0.0,0,0.0,14.16,47.22,37.26,0.0,99.54,34.47,LOW,Lower inspection priority based on reconstructed exposure evidence.
+93,TX-1069,rain,WETTING,0.084,165.0,0.498,90.41,0,0.0,0,0.0,14.24,45.83,39.15,0.0,99.6,34.43,LOW,Lower inspection priority based on reconstructed exposure evidence.
+94,TX-1026,rain,WETTING,0.081,170.0,0.426,88.58,0,0.0,0,0.0,14.16,47.22,36.22,0.0,99.59,34.38,LOW,Lower inspection priority based on reconstructed exposure evidence.
+95,TX-1098,rain,WETTING,0.083,165.0,0.467,90.11,0,0.0,0,0.0,14.21,45.83,38.13,0.0,99.6,34.32,LOW,Lower inspection priority based on reconstructed exposure evidence.
+96,TX-1052,rain,WETTING,0.084,165.0,0.458,89.51,0,0.0,0,0.0,14.24,45.83,37.58,0.0,99.57,34.27,LOW,Lower inspection priority based on reconstructed exposure evidence.
+97,TX-1029,rain,WETTING,0.08,165.0,0.448,89.01,0,0.0,0,0.0,14.13,45.83,37.05,0.0,99.73,34.19,LOW,Lower inspection priority based on reconstructed exposure evidence.
+98,TX-1085,rain,WETTING,0.082,165.0,0.447,89.05,0,0.0,0,0.0,14.19,45.83,37.04,0.0,99.48,34.18,LOW,Lower inspection priority based on reconstructed exposure evidence.
+99,TX-1086,rain,WETTING,0.08,165.0,0.442,89.57,0,0.0,0,0.0,14.13,45.83,37.16,0.0,99.39,34.15,LOW,Lower inspection priority based on reconstructed exposure evidence.
+100,TX-1084,rain,WETTING,0.083,150.0,0.441,89.49,0,0.0,0,0.0,14.21,41.67,37.09,0.0,99.54,33.37,LOW,Lower inspection priority based on reconstructed exposure evidence.

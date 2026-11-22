@@ -1,0 +1,713 @@
+{
+    "passport_metadata": {
+        "passport_version": "1.0",
+        "system": "FloodTrace",
+        "record_type": "Asset Exposure Passport",
+        "generated_at": "2026-08-26T13:24:03.114554+00:00",
+        "purpose": "Post-event environmental exposure reconstruction and inspection prioritization."
+    },
+    "asset": {
+        "asset_id": "TX-1025"
+    },
+    "event": {
+        "scenario": "power_network_failure",
+        "exposure_start": "2026-08-26T10:20:00",
+        "exposure_end": "2026-08-26T14:50:00",
+        "total_exposure_duration_minutes": 270.0
+    },
+    "exposure_summary": {
+        "maximum_exposure_state": "PARTIAL_SUBMERSION",
+        "maximum_water_level_m": 0.447,
+        "maximum_conductivity_ms_cm": 1.198,
+        "maximum_humidity_pct": 94.81
+    },
+    "disturbance_history": {
+        "power_interruptions": 1,
+        "power_off_duration_minutes": 120.0,
+        "network_outages": 1,
+        "network_offline_duration_minutes": 120.0
+    },
+    "exposure_episodes": [
+        {
+            "state": "DRY",
+            "start": "2026-08-26T10:00:00",
+            "end": "2026-08-26T10:20:00",
+            "duration_minutes": 20.0
+        },
+        {
+            "state": "WETTING",
+            "start": "2026-08-26T10:20:00",
+            "end": "2026-08-26T10:50:00",
+            "duration_minutes": 30.0
+        },
+        {
+            "state": "PARTIAL_SUBMERSION",
+            "start": "2026-08-26T10:50:00",
+            "end": "2026-08-26T14:15:00",
+            "duration_minutes": 205.0
+        },
+        {
+            "state": "WETTING",
+            "start": "2026-08-26T14:15:00",
+            "end": "2026-08-26T14:55:00",
+            "duration_minutes": 40.0
+        },
+        {
+            "state": "DRY",
+            "start": "2026-08-26T14:55:00",
+            "end": "2026-08-26T15:00:00",
+            "duration_minutes": 5.0
+        }
+    ],
+    "evidence_quality": {
+        "score": 99.9,
+        "band": "VERY HIGH",
+        "components": {
+            "data_completeness": 100.0,
+            "sensor_integrity": 100.0,
+            "temporal_continuity": 100.0,
+            "cross_sensor_consistency": 99.49,
+            "reconstruction_stability": 100.0
+        },
+        "coverage_factor": 1.0,
+        "strengths": [
+            "Data Completeness: 100.0%",
+            "Sensor Integrity: 100.0%",
+            "Temporal Continuity: 100.0%",
+            "Cross Sensor Consistency: 99.5%",
+            "Reconstruction Stability: 100.0%"
+        ],
+        "weaknesses": []
+    },
+    "inspection_priority": {
+        "priority_score": 63.99,
+        "priority_class": "HIGH",
+        "components": {
+            "exposure_severity": 50.92,
+            "exposure_duration": 75.0,
+            "environmental_severity": 60.95,
+            "power_disturbance": 50.0,
+            "evidence_quality": 99.9
+        },
+        "recommendation": "Prioritize for qualified post-event inspection."
+    },
+    "reconstructed_timeline": [
+        {
+            "timestamp": "2026-08-26T10:00:00",
+            "water_level_m": 0.0,
+            "water_level_smoothed_m": 0.00274193519269,
+            "water_trend": "UNKNOWN",
+            "exposure_state": "DRY",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T10:05:00",
+            "water_level_m": 0.00548387038538,
+            "water_level_smoothed_m": 0.00548387038538,
+            "water_trend": "UNKNOWN",
+            "exposure_state": "DRY",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T10:10:00",
+            "water_level_m": 0.014646505684459,
+            "water_level_smoothed_m": 0.014646505684459,
+            "water_trend": "UNKNOWN",
+            "exposure_state": "DRY",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T10:15:00",
+            "water_level_m": 0.0259621359319541,
+            "water_level_smoothed_m": 0.0259621359319541,
+            "water_trend": "RISING",
+            "exposure_state": "DRY",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T10:20:00",
+            "water_level_m": 0.049838426854003,
+            "water_level_smoothed_m": 0.049838426854003,
+            "water_trend": "RISING",
+            "exposure_state": "WETTING",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T10:25:00",
+            "water_level_m": 0.0634617260040384,
+            "water_level_smoothed_m": 0.0634617260040384,
+            "water_trend": "RISING",
+            "exposure_state": "WETTING",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T10:30:00",
+            "water_level_m": 0.0798743748974036,
+            "water_level_smoothed_m": 0.0798743748974036,
+            "water_trend": "RISING",
+            "exposure_state": "WETTING",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T10:35:00",
+            "water_level_m": 0.0997900001732873,
+            "water_level_smoothed_m": 0.0997900001732873,
+            "water_trend": "RISING",
+            "exposure_state": "WETTING",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T10:40:00",
+            "water_level_m": 0.1111975133341292,
+            "water_level_smoothed_m": 0.1111975133341292,
+            "water_trend": "RISING",
+            "exposure_state": "WETTING",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T10:45:00",
+            "water_level_m": 0.142339566834887,
+            "water_level_smoothed_m": 0.142339566834887,
+            "water_trend": "RISING",
+            "exposure_state": "WETTING",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T10:50:00",
+            "water_level_m": 0.1559345295689806,
+            "water_level_smoothed_m": 0.1559345295689806,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T10:55:00",
+            "water_level_m": 0.1798326005095712,
+            "water_level_smoothed_m": 0.1798326005095712,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T11:00:00",
+            "water_level_m": 0.2089333131426134,
+            "water_level_smoothed_m": 0.2089333131426134,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T11:05:00",
+            "water_level_m": 0.2181368470602984,
+            "water_level_smoothed_m": 0.2181368470602984,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T11:10:00",
+            "water_level_m": 0.2383301384481828,
+            "water_level_smoothed_m": 0.2383301384481828,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T11:15:00",
+            "water_level_m": 0.262293560831098,
+            "water_level_smoothed_m": 0.262293560831098,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T11:20:00",
+            "water_level_m": 0.2972345149365236,
+            "water_level_smoothed_m": 0.2972345149365236,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T11:25:00",
+            "water_level_m": 0.3081458814902299,
+            "water_level_smoothed_m": 0.3081458814902299,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T11:30:00",
+            "water_level_m": 0.3312697800071207,
+            "water_level_smoothed_m": 0.3312697800071207,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T11:35:00",
+            "water_level_m": 0.3431214158819566,
+            "water_level_smoothed_m": 0.3431214158819566,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T11:40:00",
+            "water_level_m": 0.3538486562912189,
+            "water_level_smoothed_m": 0.3538486562912189,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T11:45:00",
+            "water_level_m": 0.3800688869946121,
+            "water_level_smoothed_m": 0.3800688869946121,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T11:50:00",
+            "water_level_m": 0.3974093464044703,
+            "water_level_smoothed_m": 0.3974093464044703,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T11:55:00",
+            "water_level_m": 0.4047409582850785,
+            "water_level_smoothed_m": 0.4047409582850785,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T12:00:00",
+            "water_level_m": 0.4207777940036674,
+            "water_level_smoothed_m": 0.4207777940036674,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T12:05:00",
+            "water_level_m": 0.4230961205432987,
+            "water_level_smoothed_m": 0.4230961205432987,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T12:10:00",
+            "water_level_m": 0.4386077239225696,
+            "water_level_smoothed_m": 0.4386077239225696,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T12:15:00",
+            "water_level_m": 0.4457342092413325,
+            "water_level_smoothed_m": 0.4420958428244267,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T12:20:00",
+            "water_level_m": 0.4420958428244267,
+            "water_level_smoothed_m": 0.4457342092413325,
+            "water_trend": "RISING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T12:25:00",
+            "water_level_m": 0.4464485828150574,
+            "water_level_smoothed_m": 0.4464485828150574,
+            "water_trend": "STABLE",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T12:30:00",
+            "water_level_m": 0.4486381058370153,
+            "water_level_smoothed_m": 0.4464485828150574,
+            "water_trend": "STABLE",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T12:35:00",
+            "water_level_m": 0.4401246915788108,
+            "water_level_smoothed_m": 0.4474475019904185,
+            "water_trend": "STABLE",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T12:40:00",
+            "water_level_m": 0.4474475019904185,
+            "water_level_smoothed_m": 0.4401246915788108,
+            "water_trend": "STABLE",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T12:45:00",
+            "water_level_m": 0.439754590545969,
+            "water_level_smoothed_m": 0.439754590545969,
+            "water_trend": "STABLE",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T12:50:00",
+            "water_level_m": 0.4340837874314086,
+            "water_level_smoothed_m": 0.4340837874314086,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T12:55:00",
+            "water_level_m": 0.4256745900396639,
+            "water_level_smoothed_m": 0.4256745900396639,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T13:00:00",
+            "water_level_m": 0.4079809107367955,
+            "water_level_smoothed_m": 0.4079809107367955,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T13:05:00",
+            "water_level_m": 0.4013015136145552,
+            "water_level_smoothed_m": 0.4013015136145552,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T13:10:00",
+            "water_level_m": 0.3874291972205956,
+            "water_level_smoothed_m": 0.3874291972205956,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T13:15:00",
+            "water_level_m": 0.3832353021950431,
+            "water_level_smoothed_m": 0.3832353021950431,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T13:20:00",
+            "water_level_m": 0.361971724431524,
+            "water_level_smoothed_m": 0.361971724431524,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T13:25:00",
+            "water_level_m": 0.3409847764065302,
+            "water_level_smoothed_m": 0.3409847764065302,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T13:30:00",
+            "water_level_m": 0.3295066258137832,
+            "water_level_smoothed_m": 0.3295066258137832,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T13:35:00",
+            "water_level_m": 0.3034518496061362,
+            "water_level_smoothed_m": 0.3034518496061362,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T13:40:00",
+            "water_level_m": 0.287125474566811,
+            "water_level_smoothed_m": 0.287125474566811,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "OFF",
+            "network_state": "OFFLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T13:45:00",
+            "water_level_m": 0.2652901286420158,
+            "water_level_smoothed_m": 0.2652901286420158,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T13:50:00",
+            "water_level_m": 0.2386562834316656,
+            "water_level_smoothed_m": 0.2386562834316656,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T13:55:00",
+            "water_level_m": 0.2157857254325448,
+            "water_level_smoothed_m": 0.2157857254325448,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T14:00:00",
+            "water_level_m": 0.2002400233981081,
+            "water_level_smoothed_m": 0.2002400233981081,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T14:05:00",
+            "water_level_m": 0.1808008087323047,
+            "water_level_smoothed_m": 0.1808008087323047,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T14:10:00",
+            "water_level_m": 0.1625557968069622,
+            "water_level_smoothed_m": 0.1625557968069622,
+            "water_trend": "FALLING",
+            "exposure_state": "PARTIAL_SUBMERSION",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T14:15:00",
+            "water_level_m": 0.1321318603178664,
+            "water_level_smoothed_m": 0.1321318603178664,
+            "water_trend": "FALLING",
+            "exposure_state": "WETTING",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T14:20:00",
+            "water_level_m": 0.1142767923670588,
+            "water_level_smoothed_m": 0.1142767923670588,
+            "water_trend": "FALLING",
+            "exposure_state": "WETTING",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T14:25:00",
+            "water_level_m": 0.0964766724201384,
+            "water_level_smoothed_m": 0.0964766724201384,
+            "water_trend": "FALLING",
+            "exposure_state": "WETTING",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T14:30:00",
+            "water_level_m": 0.0758442928489312,
+            "water_level_smoothed_m": 0.0758442928489312,
+            "water_trend": "FALLING",
+            "exposure_state": "WETTING",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T14:35:00",
+            "water_level_m": 0.0556150068435643,
+            "water_level_smoothed_m": 0.0556150068435643,
+            "water_trend": "FALLING",
+            "exposure_state": "WETTING",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T14:40:00",
+            "water_level_m": 0.0476123893807287,
+            "water_level_smoothed_m": 0.0476123893807287,
+            "water_trend": "FALLING",
+            "exposure_state": "WETTING",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T14:45:00",
+            "water_level_m": 0.0297520241332197,
+            "water_level_smoothed_m": 0.0297520241332197,
+            "water_trend": "FALLING",
+            "exposure_state": "WETTING",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T14:50:00",
+            "water_level_m": 0.0220696447271754,
+            "water_level_smoothed_m": 0.0220696447271754,
+            "water_trend": "FALLING",
+            "exposure_state": "WETTING",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T14:55:00",
+            "water_level_m": 0.0100643770696976,
+            "water_level_smoothed_m": 0.0100643770696976,
+            "water_trend": "FALLING",
+            "exposure_state": "DRY",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        },
+        {
+            "timestamp": "2026-08-26T15:00:00",
+            "water_level_m": 0.0047401486502479,
+            "water_level_smoothed_m": 0.00740226285997275,
+            "water_trend": "FALLING",
+            "exposure_state": "DRY",
+            "power_state": "ON",
+            "network_state": "ONLINE",
+            "sensor_integrity": 1.0
+        }
+    ],
+    "system_boundary": {
+        "damage_diagnosis": false,
+        "equipment_safety_certification": false,
+        "reenergization_authorization": false,
+        "qualified_inspection_required": true,
+        "statement": "This passport records reconstructed environmental exposure evidence and supports inspection prioritization. It does not diagnose equipment damage or certify equipment safety."
+    }
+}

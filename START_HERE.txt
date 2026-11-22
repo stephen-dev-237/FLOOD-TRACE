@@ -1,0 +1,23 @@
+FLOODTRACE V2 — COMPLETE COMBINED PACKAGE
+==========================================
+
+This package combines:
+- The latest FloodTrace V2 dashboard UI
+- The full FloodTrace FastAPI backend
+- Reconstruction, evidence, prioritisation and simulator engines
+- Fleet CSV data and generated asset passports
+
+RUN:
+1. Extract the entire ZIP.
+2. Open the extracted FloodTrace_V2 folder.
+3. Double-click START_FLOODTRACE.bat.
+4. Wait for the browser to open at http://127.0.0.1:5500/
+
+The launcher starts BOTH the API (port 8000) and dashboard (port 5500).
+It checks the required Python packages and installs any missing packages.
+Keep the two service terminal windows open while using the dashboard.
+
+STOP:
+Double-click STOP_FLOODTRACE.bat.
+
+Do not move individual files out of this folder. Keep the folder structure intact.

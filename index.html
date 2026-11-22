@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FloodTrace — Exposure Intelligence</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">FloodTrace</div>
+  <div class="search"><span>⌕</span><input id="search" placeholder="Search fleet data..."></div>
+  <div class="topright"><span id="apiDot" class="dot bad"></span><b id="apiText">API OFFLINE</b><span id="clock"></span><span>◉</span><span>◷</span><span>●</span></div>
+</header>
+<aside class="side">
+  <div class="cc">Control Center</div><div id="sys" class="live">● System Live</div>
+  <button class="new" data-action="new">＋ New Scenario</button>
+  <button class="nav active" data-view="fleet">▦ <span>Fleet</span></button>
+  <button class="nav" data-view="assets">♨ <span>Assets</span></button>
+  <button class="nav" data-view="reports">▤ <span>Reports</span></button>
+  <button class="nav" data-view="sim">◉ <span>Simulations</span></button>
+  <div class="bottom"><button class="nav" data-view="settings">⚙ <span>Settings</span></button><button class="nav" data-view="support">? <span>Support</span></button></div>
+</aside>
+<main>
+<section class="toolbar">
+  <b class="livebrand">FLOODTRACE LIVE</b>
+  <select id="asset"></select>
+  <select id="scenario">
+    <option value="rain">Heavy Rain</option><option value="partial_submersion">Partial Submersion</option>
+    <option value="deep_submersion">Deep Submersion</option><option value="power_network_failure">Cascading Failure</option><option value="sensor_failure">Sensor Failure</option>
+  </select>
+  <button class="primary" data-action="run">RUN</button><button data-action="pause">PAUSE</button><button data-action="reset">RESET</button>
+  <span id="apiMsg" class="muted">Checking backend…</span>
+</section>
+<section class="subnav">
+ <b>FLOODTRACE</b><button data-view="fleet">Fleet Overview</button><button data-view="assets">Live Monitor</button><button data-view="reports">Asset Passport</button>
+ <span class="grow"></span><button id="selectedPill"></button><button data-action="open-monitor">Open Monitor</button><button data-action="open-passport">Open Passport</button>
+</section>
+<div id="toast"></div><div id="app"></div>
+</main>
+<script src="app.js"></script>
+</body></html>
